@@ -5,6 +5,8 @@ echo   Starting ComfyUI for MiniMax H3 Ref2VA (4-Step Turbo)
 echo   GPU: NVIDIA GeForce RTX 3060 Ti (8GB VRAM)
 echo ========================================================
 cd /d G:\ComfyUI
+set PYTHONUTF8=1
+set PYTHONIOENCODING=utf-8
 call venv\Scripts\activate.bat
 python main.py --windows-standalone-build --preview-method auto --auto-launch
 pause
